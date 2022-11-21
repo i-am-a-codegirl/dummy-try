@@ -1,0 +1,32 @@
+const Images = {
+  eat11: require("../images/eat11.jpg"),
+  eat3: require("../images/eat3.jpg"),
+  eat8: require("../images/eat8.jpg"),
+  eat: require("../images/eat.jpg"),
+  eat10: require("../images/eat10.jpg"),
+  eat2: require("../images/eat2.jpg"),
+  eat4: require("../images/eat4.jpg"),
+  eat5: require("../images/eat5.jpg"),
+  eat6: require("../images/eat6.jpg"),
+  eat7: require("../images/eat7.jpg"),
+  eat9: require("../images/eat9.jpg"),
+  energybar: require("../images/energybar.jfif"),
+  energybar2: require("../images/energybar2.jfif"),
+  home: require("../images/home.jpg"),
+  jar: require("../images/jar.jfif"),
+  logout: require("../images/logout.jpg"),
+  logout2: require("../images/logout2.jpg"),
+  cocoOats: require("../images/cocoOats.jfif"),
+  home3: require("../images/homeAnimation/3.png"),
+  home: require("../images/homeAnimation/Home.png"),
+  Specials: require("../images/homeAnimation/Specials.png"),
+  endline: require("../images/homeAnimation/end-line.png"),
+  Snack: require("../images/snack.jpg"),
+  lavendarPoordige: require("../images/lavendarPoordiridge.jpg"),
+  oatmeal: require("../images/oatmeal.jpg"),
+  healthyCereal: require("../images/heathyCereal.jpg"),
+  emptyCart: require("../images/emptyCart.jpg"),
+  emptyWishlist: require("../images/emptyWishlist.jpg")
+};
+
+export default Images;
