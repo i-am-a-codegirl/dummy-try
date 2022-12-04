@@ -1,5 +1,5 @@
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import { CartProvider } from "./components/cart-context";
@@ -8,10 +8,8 @@ import { makeServer } from "./server";
 import {UserDataProvider} from "./components/auth/userData"
 
 makeServer();
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
 
-root.render(
+ReactDOM.render(
   <StrictMode>
     <Router>
       <UserDataProvider>
@@ -22,5 +20,6 @@ root.render(
       </ProductProvider>
       </UserDataProvider>
     </Router>
-  </StrictMode>
+  </StrictMode>,
+    document.getElementById("root")
 );
