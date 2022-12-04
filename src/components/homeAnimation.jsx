@@ -1,14 +1,17 @@
-import Images from "../data/master-image";
+import home from "../images/homeAnimation/Home.png"
+import Specials from "../images/homeAnimation/Specials.png"
+import home3 from "../images/homeAnimation/3.png"
+
 
 const HomeAnimation = () => {
   return (
     <div id="slider">
       <figure>
-        <img src={Images.home} />
-        <img src={Images.Specials} />
-        <img src={Images.home} />
-        <img src={Images.home3} />
-        <img src={Images.home} />
+        <img src={home} />
+        <img src={Specials} />
+        <img src={home} />
+        <img src={home3} />
+        <img src={home} />
       </figure>
     </div>
   );
